@@ -1,0 +1,27 @@
+<wicket:extend>
+	<h1 class="user">Add Employee to IndexedDB</h1>
+
+
+	<form wicket:id="employeeForm">
+		<fieldset>
+			<legend>Employee data</legend>
+			<div wicket:id="feedback" />
+			<p class="leftFormRow">
+				<label>First Name<br /> <input wicket:id="firstName" /> </label>
+			</p>
+			<p class="rightFormRow">
+				<label>Last Name<br /> <input wicket:id="lastName" /> </label>
+			</p>
+
+			<p class="fullFormRow">
+				<label>Birth Date<br /> <input wicket:id="birthDate" /> </label>
+			</p>
+			<p class="fullFormRow">
+				<label>Salary<br /> <input wicket:id="salary" /> </label>
+			</p>
+		</fieldset>
+		<div id="actions">
+			<input type="submit" value="Save Data" class="button" />
+		</div>
+	</form>
+</wicket:extend>

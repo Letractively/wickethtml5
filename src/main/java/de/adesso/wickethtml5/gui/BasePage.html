@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<head>
+<title>Wicket HTML5 Showcase</title>
+<link rel="stylesheet" type="text/css" href="media/css/screen.css" />
+
+<!--[if IE 8]>
+		  <link rel="stylesheet" type="text/css" href="media/css/ie8.css" />
+		<![endif]-->
+
+</head>
+<body>
+
+	<div id="header">
+		<div class="pageWidth"></div>
+	</div>
+	<div id="contentArea">
+		<div class="pageWidth">
+			<div id="leftRow">
+				<div id="navigation">
+					<wicket:link>
+						<ul>
+							<li><a href="indexeddb/IndexedDBFormPage.html">IndexedDB Form</a>
+							</li>
+							<li><a href="indexeddb/IndexedDBTablePage.html">IndexedDB Table</a>
+							</li>
+						</ul>
+					</wicket:link>
+				</div>
+				<div id="marginal">
+					<h3><wicket:message key="marginalTitle">Marginal Title</wicket:message></h3>
+					<p><wicket:message key="marginalText">Marginal Text</wicket:message></p>
+				</div>
+			</div>
+			<div id="content">
+				<wicket:child>CONTENT</wicket:child>
+			</div>
+			<span class="fClear"></span>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="pageWidth">
+			<p>Wicket HTML5 Showcase</p>
+		</div>
+	</div>
+</body>
+</html>
