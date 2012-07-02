@@ -1,9 +1,10 @@
-package de.adesso.wickethtml5.gui.indexeddb;
+package com.googlecode.wickethtml5.gui.indexeddb;
 
 import org.apache.wicket.markup.html.WebMarkupContainer;
 
-import de.adesso.wickethtml5.gui.BasePage;
-import de.adesso.wickethtml5.gui.indexeddb.behavior.IndexedDBTableBehavior;
+import com.googlecode.wickethtml5.gui.BasePage;
+import com.googlecode.wickethtml5.gui.indexeddb.behavior.IndexedDBTableBehavior;
+
 
 public class IndexedDBTablePage extends BasePage {
 

@@ -1,4 +1,4 @@
-package de.adesso.wickethtml5.domain;
+package com.googlecode.wickethtml5.domain;
 
 import java.io.Serializable;
 import java.util.Date;

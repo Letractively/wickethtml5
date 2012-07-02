@@ -1,4 +1,4 @@
-package de.adesso.wickethtml5.gui.indexeddb.behavior;
+package com.googlecode.wickethtml5.gui.indexeddb.behavior;
 
 import java.text.MessageFormat;
 
@@ -11,9 +11,10 @@ import org.apache.wicket.markup.html.WicketEventReference;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.request.resource.JavaScriptResourceReference;
 
-import de.adesso.wickethtml5.gui.util.JQueryDataTablesReference;
-import de.adesso.wickethtml5.gui.util.JQueryReference;
-import de.adesso.wickethtml5.gui.util.WicketAjaxDebugReference;
+import com.googlecode.wickethtml5.gui.util.JQueryDataTablesReference;
+import com.googlecode.wickethtml5.gui.util.JQueryReference;
+import com.googlecode.wickethtml5.gui.util.WicketAjaxDebugReference;
+
 
 public class IndexedDBTableBehavior extends Behavior {
 

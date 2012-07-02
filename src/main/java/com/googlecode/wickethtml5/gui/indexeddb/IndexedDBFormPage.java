@@ -1,8 +1,9 @@
-package de.adesso.wickethtml5.gui.indexeddb;
+package com.googlecode.wickethtml5.gui.indexeddb;
 
 
-import de.adesso.wickethtml5.gui.BasePage;
-import de.adesso.wickethtml5.gui.indexeddb.behavior.IndexedDBFormBehavior;
+import com.googlecode.wickethtml5.gui.BasePage;
+import com.googlecode.wickethtml5.gui.indexeddb.behavior.IndexedDBFormBehavior;
+
 
 public class IndexedDBFormPage extends BasePage {
 

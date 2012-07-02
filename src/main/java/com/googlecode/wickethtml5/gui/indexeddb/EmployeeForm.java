@@ -1,4 +1,4 @@
-package de.adesso.wickethtml5.gui.indexeddb;
+package com.googlecode.wickethtml5.gui.indexeddb;
 
 import java.util.Date;
 
@@ -8,8 +8,9 @@ import org.apache.wicket.markup.html.panel.FeedbackPanel;
 import org.apache.wicket.model.CompoundPropertyModel;
 import org.apache.wicket.spring.injection.annot.SpringBean;
 
-import de.adesso.wickethtml5.domain.Employee;
-import de.adesso.wickethtml5.persistence.EmployeeRepository;
+import com.googlecode.wickethtml5.domain.Employee;
+import com.googlecode.wickethtml5.persistence.EmployeeRepository;
+
 
 public class EmployeeForm extends Form<Employee> {
 

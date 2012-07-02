@@ -1,4 +1,4 @@
-package de.adesso.wickethtml5.gui.util;
+package com.googlecode.wickethtml5.gui.util;
 
 import org.apache.wicket.request.resource.JavaScriptResourceReference;
 import org.apache.wicket.request.resource.ResourceReference;

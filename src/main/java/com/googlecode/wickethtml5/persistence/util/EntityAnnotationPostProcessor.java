@@ -1,4 +1,4 @@
-package de.adesso.wickethtml5.persistence.util;
+package com.googlecode.wickethtml5.persistence.util;
 
 import java.io.IOException;
 import java.util.List;

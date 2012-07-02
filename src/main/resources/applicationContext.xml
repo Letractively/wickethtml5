@@ -8,11 +8,11 @@
 
 	<context:annotation-config />
 
-	<context:component-scan base-package="de.adesso" />
+	<context:component-scan base-package="com.googlecode" />
 
-	<bean id="wicketHtml5Application" class="de.adesso.wickethtml5.gui.WicketApplication" />
+	<bean id="wicketHtml5Application" class="com.googlecode.wickethtml5.gui.WicketApplication" />
 
-	<jpa:repositories base-package="de.adesso.wickethtml5.persistence" />
+	<jpa:repositories base-package="com.googlecode.wickethtml5.persistence" />
 
 	<bean class="org.springframework.orm.jpa.JpaTransactionManager"
 		id="transactionManager">
@@ -31,10 +31,10 @@
 	</bean>
 
 	<bean id="entityPostProcessor"
-		class="de.adesso.wickethtml5.persistence.util.EntityAnnotationPostProcessor">
+		class="com.googlecode.wickethtml5.persistence.util.EntityAnnotationPostProcessor">
 		<property name="packagesToScan">
 			<list>
-				<value>de.adesso.wickethtml5.domain</value>
+				<value>com.googlecode.wickethtml5.domain</value>
 			</list>
 		</property>
 	</bean>
