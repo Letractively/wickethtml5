@@ -1,4 +1,4 @@
-package de.adesso.wickethtml5.gui;
+package com.googlecode.wickethtml5.gui;
 
 import org.apache.wicket.markup.html.WebPage;
 

@@ -1,7 +1,8 @@
-package de.adesso.wickethtml5.persistence;
+package com.googlecode.wickethtml5.persistence;
 
-import de.adesso.wickethtml5.domain.Employee;
 import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.googlecode.wickethtml5.domain.Employee;
 
 public interface EmployeeRepository extends PagingAndSortingRepository<Employee, Long> {
 

@@ -1,10 +1,11 @@
-package de.adesso.wickethtml5.gui;
+package com.googlecode.wickethtml5.gui;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.spring.injection.annot.SpringBean;
 
-import de.adesso.wickethtml5.domain.Employee;
-import de.adesso.wickethtml5.persistence.EmployeeRepository;
+import com.googlecode.wickethtml5.domain.Employee;
+import com.googlecode.wickethtml5.persistence.EmployeeRepository;
+
 
 public class Homepage extends BasePage {
 

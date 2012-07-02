@@ -1,11 +1,12 @@
-package de.adesso.wickethtml5.gui;
+package com.googlecode.wickethtml5.gui;
 
 import org.apache.wicket.Page;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
 
-import de.adesso.wickethtml5.gui.indexeddb.IndexedDBFormPage;
-import de.adesso.wickethtml5.gui.indexeddb.IndexedDBTablePage;
+import com.googlecode.wickethtml5.gui.indexeddb.IndexedDBFormPage;
+import com.googlecode.wickethtml5.gui.indexeddb.IndexedDBTablePage;
+
 
 public class WicketApplication extends WebApplication {
 
