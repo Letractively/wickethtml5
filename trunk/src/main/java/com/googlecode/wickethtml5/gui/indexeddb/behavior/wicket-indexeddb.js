@@ -125,7 +125,7 @@ IndexedDB.DB = function(dbName, storeName, storeVersion, keyPath) {
 	this.store = function(db, data){
 		logger.logInfo("storing in IndexedDB: " + JSON.stringify(data));
 	
-		var tx = db.transaction([storeName], IDBTransaction.READ_WRITE);
+		var tx = db.transaction([storeName], "readwrite");
 		var store = tx.objectStore(storeName);
 		var request = store.put(data);
 		
@@ -137,7 +137,7 @@ IndexedDB.DB = function(dbName, storeName, storeVersion, keyPath) {
 	}
 	
 	this.each = function(db, oneach){
-		var tx = db.transaction([storeName], IDBTransaction.READ_WRITE);
+		var tx = db.transaction([storeName], "readwrite");
 		var store = tx.objectStore(storeName);
 		var keyRange = IDBKeyRange.lowerBound(0);
 		var cursorRequest = store.openCursor(keyRange);
@@ -166,12 +166,12 @@ IndexedDB.Table = function(tableId, dbName, storeName, storeVersion, keyPath) {
 		indexedDB.oninitialized = function(db){
 			indexedDB.each(db, function(e){
 				var result = e.target.result;
-				logger.logInfo("result of IndexedDB query: " + JSON.stringify(result));
+//				logger.logInfo("result of IndexedDB query: " + JSON.stringify(result));
 				if(result == false || result == null){ 
 					return;
 				}
 				var data = result.value;
-				logger.logInfo("data loaded from IndexedDB: " + JSON.stringify(result));
+//				logger.logInfo("data loaded from IndexedDB: " + JSON.stringify(result));
 				var tableData = [];
 				for(var property in data){
 					tableData.push(data[property]);
